@@ -22,7 +22,7 @@ main1 = do
         putStrLn . show $ sum input 
 
 {-
-    1st Part:
+    2nd Part:
         What is the first frequency your device reaches twice?
 
     NOTE: Might be needed to go through the input multiple times.
