@@ -3,9 +3,6 @@ module Day1 where
 import Data.Map (Map)
 import qualified Data.Map as Map
 
-import Data.IntSet (IntSet)
-import qualified Data.IntSet as Set
-
 {-
     Advent of code - Day 1: Chronal Calibration
     1st Part:
@@ -22,7 +19,7 @@ main1 = do
         putStrLn . show $ sum input 
 
 {-
-    1st Part:
+    2nd Part:
         What is the first frequency your device reaches twice?
 
     NOTE: Might be needed to go through the input multiple times.
