@@ -2,13 +2,12 @@ module Day4 (
 ) where
 
 import Control.Monad.State.Strict
-import Control.Monad.IO.Class (liftIO)
 import Data.List.Split (splitOn)
 import Data.Map.Strict (Map)
 import qualified Data.Map.Strict as M
 
 {-
-    Advent of code - Day 2: Repose Record
+    Advent of code - Day 4: Repose Record
     1st Part:
         Strategy 1: Find the guard that has the most minutes asleep. What minute does that guard spend asleep the most?
         What is the ID of the guard you chose multiplied by the minute you chose? 
